@@ -4,14 +4,17 @@
       Home
     </ion-title>
   </ion-toolbar>
+  
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+<ion-content>
+  
+  <ion-button href="/home">Home</ion-button>
+  <ion-button href="/about"> about</ion-button>
+  <ion-button href="/contacts">contacts</ion-button>
+  <ion-button href="/menu">menu</ion-button>
+  <ion-button (click)="go()">go</ion-button>
+  <ion-button (click)="gal()">gal</ion-button>
+  <ion-button (click)="gali()">gala</ion-button>
   
 </ion-content>
